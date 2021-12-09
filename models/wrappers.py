@@ -18,7 +18,7 @@ from types import SimpleNamespace
 from utils import download_ckpt
 from config import Config
 from netdissect import proggan, zdataset
-from . import biggan
+#from . import biggan
 from . import stylegan
 from . import stylegan2
 from abc import abstractmethod, ABC as AbstractBaseClass
