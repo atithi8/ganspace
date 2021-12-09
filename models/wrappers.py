@@ -137,6 +137,8 @@ class StyleGAN2(BaseModel):
     # URLs created with https://sites.google.com/site/gdocs2direct/
     def download_checkpoint(self, outfile):
         checkpoints = {
+            
+            'pizza': 'https://drive.google.com/file/d/1kD6lSg5Hx8COrzrmaVxbEFqLgdxzm8pt/view?usp=sharing',
             'horse': 'https://drive.google.com/uc?export=download&id=18SkqWAkgt0fIwDEf2pqeaenNi4OoCo-0',
             'ffhq': 'https://drive.google.com/uc?export=download&id=1FJRwzAkV-XWbxgTwxEmEACvuqF5DsBiV',
             'church': 'https://drive.google.com/uc?export=download&id=1HFM694112b_im01JT7wop0faftw9ty5g',
