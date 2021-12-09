@@ -105,7 +105,7 @@ class StyleGAN2(BaseModel):
         # Image widths
         configs = {
             # Converted NVIDIA official
-            'ffhq': 1024,
+            'network-snapshot-010483': 1024,
             'car': 512,
             'cat': 256,
             'church': 256,
